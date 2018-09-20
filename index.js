@@ -4,5 +4,5 @@ function findMatching(drivers, name){
 }
 
 function fuzzyMatch(drivers, subStr){
-  return drivers.filter(d => d.includes(subStr)  );
+  return drivers.filter(d => d.search(/^subStr/)  );
 }
